@@ -1,6 +1,6 @@
 {
   "name": "vinner-it",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/vinner-it/vinner-it-cpp",
   "description": "A sample C++ library designed to serve as a foundational example for a tutorial on packaging libraries with vcpkg.",
   "license": "MIT",

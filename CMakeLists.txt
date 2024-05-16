@@ -4,6 +4,6 @@ project(vinner-it)
 
 find_package(fmt CONFIG REQUIRED)
 
-add_executable(vinner-it HelloWorld.cpp)
+add_executable(vinner-it vinner-it/HelloWorld.cpp)
 
 target_link_libraries(vinner-it PRIVATE fmt::fmt)
