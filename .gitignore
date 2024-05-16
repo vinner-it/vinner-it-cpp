@@ -30,8 +30,7 @@ bld/
 [Oo]bj/
 [Ll]og/
 # Ignore the executable
-/vcpkg
-/vcpkg.exe
+
 
 # Visual Studio 2015 cache/options directory
 .vs/
