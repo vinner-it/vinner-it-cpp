@@ -1,4 +1,0 @@
-vinner-it provides CMake targets:
-
-find_package(vinner-it CONFIG REQUIRED)
-target_link_libraries(main PRIVATE vinner-it::vinner-it)
