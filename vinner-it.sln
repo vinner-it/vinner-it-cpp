@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vinner-it", "vinner-it.vcxproj", "{E227E467-4C1C-4380-8090-8767DC08D454}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Tests\Tests.vcxproj", "{57CDBF85-5213-4D5B-BD27-D32221BC2C79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{E227E467-4C1C-4380-8090-8767DC08D454}.Release|x64.Build.0 = Release|x64
 		{E227E467-4C1C-4380-8090-8767DC08D454}.Release|x86.ActiveCfg = Release|Win32
 		{E227E467-4C1C-4380-8090-8767DC08D454}.Release|x86.Build.0 = Release|Win32
+		{57CDBF85-5213-4D5B-BD27-D32221BC2C79}.Debug|x64.ActiveCfg = Debug|x64
+		{57CDBF85-5213-4D5B-BD27-D32221BC2C79}.Debug|x64.Build.0 = Debug|x64
+		{57CDBF85-5213-4D5B-BD27-D32221BC2C79}.Debug|x86.ActiveCfg = Debug|Win32
+		{57CDBF85-5213-4D5B-BD27-D32221BC2C79}.Debug|x86.Build.0 = Debug|Win32
+		{57CDBF85-5213-4D5B-BD27-D32221BC2C79}.Release|x64.ActiveCfg = Release|x64
+		{57CDBF85-5213-4D5B-BD27-D32221BC2C79}.Release|x64.Build.0 = Release|x64
+		{57CDBF85-5213-4D5B-BD27-D32221BC2C79}.Release|x86.ActiveCfg = Release|Win32
+		{57CDBF85-5213-4D5B-BD27-D32221BC2C79}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
