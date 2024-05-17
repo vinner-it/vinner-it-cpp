@@ -8,4 +8,8 @@ namespace vinner {
 			throw std::invalid_argument("Invalid VIN");
 		}
 	}
+
+	const std::string& Vin::getVin() const {
+		return _vin;
+	}
 }

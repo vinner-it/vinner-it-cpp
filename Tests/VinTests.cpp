@@ -54,5 +54,19 @@ namespace VinnerItTests
 			Assert::IsTrue(true);
 		}
 
+		TEST_METHOD(vin_ifValid_vinIsSet)
+		{
+			// Arrange
+			VinnerItTestMocks::FastValidatorMock fastValidatorMock;
+			fastValidatorMock.setReturnValue(true);
+			std::string vinString = "1M8GDM9AXKP042788";
+
+			// Act
+			vinner::Vin vin(fastValidatorMock, vinString);
+
+			// Assert
+			Assert::AreEqual(vinString, vin.getVin());
+		}
+
 	};
 }

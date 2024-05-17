@@ -9,5 +9,6 @@ namespace vinner {
 	public:
 		Vin() = delete;
 		Vin(IValidator& validator, const std::string& vin);
+		const std::string& getVin() const;
 	};
 }
