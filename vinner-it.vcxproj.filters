@@ -21,6 +21,9 @@
     <ClCompile Include="Vin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FastValidatorFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IValidator.h">
@@ -30,6 +33,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Vin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IValidatorFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FastValidatorFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

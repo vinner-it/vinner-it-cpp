@@ -5,7 +5,7 @@
 
 namespace vinner
 {
-	class FastValidator : IValidator
+	class FastValidator : public IValidator
 	{
 	public:
 		bool isValid(const std::string& vin) override;

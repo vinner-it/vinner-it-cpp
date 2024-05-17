@@ -163,6 +163,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="FastValidatorTests.cpp" />
+    <ClCompile Include="ValidatorFactoryTests.cpp" />
     <ClCompile Include="VinTests.cpp" />
   </ItemGroup>
   <ItemGroup>
