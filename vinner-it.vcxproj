@@ -129,10 +129,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FastValidator.cpp" />
+    <ClCompile Include="Vin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FastValidator.h" />
     <ClInclude Include="IValidator.h" />
+    <ClInclude Include="Vin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
