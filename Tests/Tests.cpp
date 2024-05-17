@@ -24,5 +24,33 @@ namespace VinnerItTests
 			// Assert
 			Assert::AreEqual(expected, actual);
 		}
+
+		TEST_METHOD(isValid_IfVINIsLongerThan17_ReturnFalse)
+		{
+			// Arrange
+			std::string vin = "XXXXXXXXXXXXXXXXXX";
+			bool expected = false;
+			vinner::FastValidator fastValidator;
+
+			// Act
+			bool actual = fastValidator.isValid(vin);
+
+			// Assert
+			Assert::AreEqual(expected, actual);
+		}
+
+		TEST_METHOD(isValid_IfVINIsShorterThan17_ReturnFalse)
+		{
+			// Arrange
+			std::string vin = "XXX";
+			bool expected = false;
+			vinner::FastValidator fastValidator;
+
+			// Act
+			bool actual = fastValidator.isValid(vin);
+
+			// Assert
+			Assert::AreEqual(expected, actual);
+		}
 	};
 }
