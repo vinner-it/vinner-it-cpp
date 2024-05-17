@@ -8,7 +8,7 @@ namespace vinner
 	class IValidator
 	{
 	public:
-		virtual bool isValid(string vin) = 0;
+		virtual bool isValid(const string& vin) = 0;
 		virtual ~IValidator() = default;
 	};
 }

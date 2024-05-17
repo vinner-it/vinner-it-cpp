@@ -8,6 +8,6 @@ namespace vinner
 	class FastValidator : IValidator
 	{
 	public:
-		bool isValid(std::string vin) override;
+		bool isValid(const std::string& vin) override;
 	};
 }

@@ -52,5 +52,19 @@ namespace VinnerItTests
 			// Assert
 			Assert::AreEqual(expected, actual);
 		}
+
+		TEST_METHOD(isValid_IfVINIsValid_ShouldReturnTrue)
+		{
+			// Arrange
+			std::string vin = "1M8GDM9AXKP042788";
+			bool expected = true;
+			vinner::FastValidator fastValidator;
+
+			// Act
+			bool actual = fastValidator.isValid(vin);
+
+			// Assert
+			Assert::AreEqual(expected, actual);
+		}
 	};
 }
