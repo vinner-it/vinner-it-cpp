@@ -28,7 +28,7 @@ namespace VinnerItTests
 		TEST_METHOD(isValid_IfVINIsLongerThan17_ReturnFalse)
 		{
 			// Arrange
-			std::string vin = "XXXXXXXXXXXXXXXXXX";
+			std::string vin = "1M8GDM9AXKP0427888";
 			bool expected = false;
 			vinner::FastValidator fastValidator;
 
@@ -42,7 +42,7 @@ namespace VinnerItTests
 		TEST_METHOD(isValid_IfVINIsShorterThan17_ReturnFalse)
 		{
 			// Arrange
-			std::string vin = "XXX";
+			std::string vin = "1M8GDM9AXKP04278";
 			bool expected = false;
 			vinner::FastValidator fastValidator;
 
